@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Raycast : MonoBehaviour
 {
     [SerializeField]
@@ -23,26 +24,25 @@ public class Raycast : MonoBehaviour
 
 
 
-    private void FixedUpdate()
+    public void FixedUpdate()
     {
-        
+
         Debug.DrawRay(RaycastOrigin.position, RaycastOrigin.forward * maxRange, Color.red);
         RaycastHit hitInfo;
         bool ObjectWasDetected = Physics.Raycast(RaycastOrigin.position, RaycastOrigin.forward, out hitInfo, maxRange);
 
         IInteractive interactive = null;
 
-        LookAtInteractive = interactive;
-
-        if(ObjectWasDetected)
+        if (ObjectWasDetected)
         {
             //Debug.Log($"Player is looking at { hitInfo.collider.gameObject.name}");
             interactive = hitInfo.collider.gameObject.GetComponent<IInteractive>();
         }
 
-        if(interactive != null)
+        if (interactive != null)
         {
-            LookAtInteractive = interactive;
+            interactive.InteractWith();
         }
+
     }
 }

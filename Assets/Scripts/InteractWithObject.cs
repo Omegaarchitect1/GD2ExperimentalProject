@@ -12,8 +12,9 @@ public class InteractWithObject : MonoBehaviour
     {
         if (Input.GetButtonDown("Interact") && raycast.LookAtInteractive != null)
         {
-            //Debug.Log("Player pressed the interact button.");
+            Debug.Log("Player pressed the interact button.");
             raycast.LookAtInteractive.InteractWith();
+            
         }
     }
 }

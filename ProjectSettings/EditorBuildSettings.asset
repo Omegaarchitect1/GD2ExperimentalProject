@@ -5,7 +5,70 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Ash.unity
+    guid: c85510dbd9de76745a88b9cc536c27c8
+  - enabled: 1
+    path: Assets/Scenes/Beach.unity
+    guid: 5552c835332979641ad539b4975fea23
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: 6c62fb4823f27f547a28d0ce8c3ea4f1
+  - enabled: 1
+    path: Assets/Scenes/Earth.unity
+    guid: d92e91bda9d35f641ad93a585a54e996
+  - enabled: 1
+    path: Assets/Scenes/Farmland.unity
+    guid: da0edc14b02c4754e816eb3b3c252c8d
+  - enabled: 1
+    path: Assets/Scenes/Fire.unity
+    guid: c24ab4951b8d5da488f8c5f995adbddc
+  - enabled: 1
+    path: Assets/Scenes/Flight.unity
+    guid: 6c62c86871005cb418b5a58d739e2deb
+  - enabled: 1
+    path: Assets/Scenes/Heat.unity
+    guid: bd5be7aaf4f46da4f8cb3d516269899f
+  - enabled: 1
+    path: Assets/Scenes/Industry.unity
+    guid: 9623ea1f1f01a064cafd6ddd610e512c
+  - enabled: 1
+    path: Assets/Scenes/Machine.unity
+    guid: 21c0e74b4e299584085038b7b78b517c
+  - enabled: 1
+    path: Assets/Scenes/Oasis.unity
+    guid: 8a8d25d85a260fe4c8fa29d15fc19e1e
+  - enabled: 1
+    path: Assets/Scenes/Rain.unity
+    guid: 44d8adaefa2886e4aa522023d6d01707
+  - enabled: 1
+    path: Assets/Scenes/Rebirth.unity
+    guid: 1663221ca98466841ad4444311b94833
+  - enabled: 1
+    path: Assets/Scenes/Sand.unity
+    guid: 311e3bd8c46623f4e8d6acb6bd26606d
+  - enabled: 1
+    path: Assets/Scenes/Sky.unity
+    guid: b6b262915c3eaec4592cd8681052060b
+  - enabled: 1
+    path: Assets/Scenes/Steam.unity
+    guid: 40135ab0aa180834091dc7fb77981f2f
+  - enabled: 1
+    path: Assets/Scenes/Stone.unity
+    guid: fad059189344109498fceb6e7339881b
+  - enabled: 1
+    path: Assets/Scenes/Swamp.unity
+    guid: 9efb7b281bfb4c544a95c5388d6685dd
+  - enabled: 1
+    path: Assets/Scenes/TheShrine.unity
+    guid: 11554f2d39125be44aefdc4292cf27fc
+  - enabled: 1
+    path: Assets/Scenes/Volcano.unity
+    guid: 6d826a18c4ee6fd4a9ff43ae53f93c80
+  - enabled: 1
+    path: Assets/Scenes/Water.unity
+    guid: d98b41d8856cc9d49b84ba40f9a021d7
   m_configObjects: {}

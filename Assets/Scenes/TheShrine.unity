@@ -686,6 +686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e523148a8702cb641a87408a066ad5e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: Earth
 --- !u!1 &409479085 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942,
@@ -1064,6 +1065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e523148a8702cb641a87408a066ad5e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: Sky
 --- !u!43 &444929113
 Mesh:
   m_ObjectHideFlags: 0
@@ -1971,6 +1973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e523148a8702cb641a87408a066ad5e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: Water
 --- !u!1 &835753656
 GameObject:
   m_ObjectHideFlags: 0
@@ -3913,6 +3916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e523148a8702cb641a87408a066ad5e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: Fire
 --- !u!1 &1771417482
 GameObject:
   m_ObjectHideFlags: 0
