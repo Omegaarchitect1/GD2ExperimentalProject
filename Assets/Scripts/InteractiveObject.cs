@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractiveObject : MonoBehaviour
+public class InteractiveObject : MonoBehaviour, IInteractive
 {
-    // Start is called before the first frame update
-    void Start()
+    public void InteractWith()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log($"Player interacted with {gameObject.name}");
     }
 }

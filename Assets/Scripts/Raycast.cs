@@ -12,6 +12,16 @@ public class Raycast : MonoBehaviour
 
     private Vector3 RaycastDirection;
 
+    public IInteractive LookAtInteractive
+    {
+      get { return lookAtInteractive;  }
+      set { lookAtInteractive = value; }
+
+    }
+
+    private IInteractive lookAtInteractive;
+
+
 
     private void FixedUpdate()
     {
@@ -20,9 +30,19 @@ public class Raycast : MonoBehaviour
         RaycastHit hitInfo;
         bool ObjectWasDetected = Physics.Raycast(RaycastOrigin.position, RaycastOrigin.forward, out hitInfo, maxRange);
 
+        IInteractive interactive = null;
+
+        LookAtInteractive = interactive;
+
         if(ObjectWasDetected)
         {
-            Debug.Log($"Player is looking at { hitInfo.collider.gameObject.name}");
+            //Debug.Log($"Player is looking at { hitInfo.collider.gameObject.name}");
+            interactive = hitInfo.collider.gameObject.GetComponent<IInteractive>();
+        }
+
+        if(interactive != null)
+        {
+            LookAtInteractive = interactive;
         }
     }
 }
